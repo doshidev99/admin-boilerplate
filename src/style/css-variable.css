@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-text: #2e3842;
+  --color-white: #fff;
+  --color-primary: #2887c7;
+  --color-secondary: #ca0210;
+  --color-error: #ca0210;
+  --color-warning: #ffca28;
+  --color-info: #2887c7;
+  --color-success: #29cc00;
+  --color-odd: #f9fafb;
+  --color-even: #edf0f2;
+}
+
+
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  /* width: 5px; */
+  /* height: 3px; */
+}
+::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
